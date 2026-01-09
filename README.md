@@ -118,7 +118,7 @@ These limitations are intentional to keep the focus on frontend development.
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/tanmay-joshi-official/harmoni-web-music-player.git
+   git clone https://github.com/tanmay-joshi-official/Harmoni-Web-Music-Player.git
    ```
    
 2. Open `index.html` using a local server
