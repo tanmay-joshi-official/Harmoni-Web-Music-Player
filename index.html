@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmoni - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home rounded flex bg-grey p1">
+                <img src="Assets/logo.png" alt="logo" class="logo pointer">
+                <img src="Assets/cross.svg" alt="cross" class="cross" height="20px">
+                <ul>
+                    <li class="font-weight">
+                        <img src="Assets/home.svg" alt="home_logo" height="20px" class="font pointer"> <span
+                            class="pointer">Home</span>
+                    </li>
+                    <li class="font-weight">
+                        <img src="Assets/search.svg" alt="search_icon" class="search pointer" height="20px"> <span
+                            class="pointer">Search</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="playlist rounded bg-grey p2 font-weight">
+                <ul>
+                    <li>
+                        <img src="Assets/library.svg" alt="library">
+                        <h3>Your Library</h3>
+                    </li>
+                </ul>
+                <div class="left-container">
+                    <div class="box rounded flex">
+                        <h3 class="box_heading">Create your first playlist</h3>
+                        It's easy, we'll help you
+                        <div><button class="create scale">Create playlist</button></div>
+                    </div>
+                    <div class="box rounded flex">
+                        <h3 class="box_heading">Let's find some podcasts to follow</h3>
+                        We'll keep you updated on new episodes
+                        <div><button class="create scale">Browse podcasts</button></div>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="footer flex">
+                        <div><a href=""><span>Legal</span></a></div>
+                        <div><a href=""><span>Privacy Center</span></a></div>
+                        <div><a href=""><span>Privacy Policy</span></a></div>
+                        <div><a href=""><span>Cookies</span></a></div>
+                        <div><a href=""><span>About Ads</span></a></div>
+                        <div><a href=""><span>Accessibility</span></a></div>
+                    </div>
+                    <div class="language">
+                        <button class="english flex items-center scale"><img src="Assets/globe.png" alt="globe"
+                                height="20px">English</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right rounded bg-grey p1 flex">
+            <div class="nav flex items-center rounded">
+                <img class="hamburger" src="Assets/hamburger.svg" alt="hamburger">
+                <div class="arrow">
+                    <img width="20px" class="larrow" src="https://img.icons8.com/ios-filled/50/FFFFFF/back.png"
+                        alt="back" />
+                    <img width="20px" class="rarrow" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/chevron-right.png"
+                        alt="chevron-right" />
+                </div>
+                <div class="buttons">
+                    <button class="sign_up scale">Sign Up</button>
+                    <button class="login scale">Log In</button>
+                </div>
+            </div>
+            <div class="spotify-playlist flex">
+                <div class="m1">Playlists for You</div>
+                <div class="m2">Show all</div>
+                <div class="m3">Show less</div>
+            </div>
+            <div class="cards-container flex">
+                
+            </div>
+            <div class="music_list flex">
+                <ul class="flex">
+                </ul>
+            </div>
+            <div class="playbar rounded">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="songinfo flex">
+                    <div class="songName"></div>
+                    <div class="duration"></div>
+                </div>
+                <div class="playbuttons flex">
+                    <img id="previous" src="Assets/previous.svg" alt="previous">
+                    <img id="play" src="Assets/playsong.svg" alt="play">
+                    <img id="next" src="Assets/next.svg" alt="next">
+                    <div class="volumeseek flex">
+                        <img class="volume" id="volume" src="Assets/volume.svg" alt="volume">
+                        <input type="range" name="volume" id="setVolume">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
