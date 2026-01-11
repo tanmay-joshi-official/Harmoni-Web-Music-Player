@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/56798e8b-2896-42cd-85b8-78d447af60d4
 Harmoni/
 │── index.html        # Main HTML structure
 │── style.css         # Global styles and UI layout
-│── utility.css     # For utility classes
+│── utility.css       # For utility classes
 │── script.js         # Application logic and audio handling
 │── Assets            # Contains all the icons
 │── Songs/
